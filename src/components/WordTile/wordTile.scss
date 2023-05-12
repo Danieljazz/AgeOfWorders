@@ -1,0 +1,14 @@
+.word-tile {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  margin: 10px 10px;
+  text-align: center;
+  font-size: 30px;
+  &.correct {
+    background-color: green;
+  }
+  &.almost {
+    background-color: orange;
+  }
+}

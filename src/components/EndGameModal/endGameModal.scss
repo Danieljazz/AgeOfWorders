@@ -1,0 +1,38 @@
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(108, 0, 108, 0.7);
+  .won-modal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 200px;
+    background: #8a678b;
+    width: 50%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 100px;
+    & > button {
+      margin-top: 20px;
+      padding: 20px 20px;
+      border-radius: 20px;
+      font-size: 20px;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+      background-color: rgb(77, 151, 77);
+    }
+    & > span {
+      font-size: 24px;
+    }
+  }
+}
