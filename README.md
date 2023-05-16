@@ -1,6 +1,6 @@
 # AgeOfWorders - Wordle clone
 
-Wordle clone in the game there is about 3000 words. When user win or loose the game there is pop-up with button for new game
+Wordle clone in the game there is about 3000 words. When user win or loose the game there is pop-up with button for new game.
 
 ## Tech stack
 
