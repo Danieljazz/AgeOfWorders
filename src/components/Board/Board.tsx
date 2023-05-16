@@ -1,11 +1,7 @@
-import { useContext, useEffect } from "react";
 import WordTile from "../WordTile/WordTile";
 import "./board.scss";
-import { BoardContext } from "../../boardContext";
 
 const Board = () => {
-  const { board } = useContext(BoardContext);
-
   return (
     <table>
       <tbody>

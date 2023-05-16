@@ -10,7 +10,7 @@ const App = () => {
     <div className="app">
       <Navbar />
       <MainContent />
-      {gameState.won || (gameState.lost && <EndGameModal />)}
+      {(gameState.won || gameState.lost) && <EndGameModal />}
     </div>
   );
 };
