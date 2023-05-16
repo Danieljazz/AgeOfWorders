@@ -15,7 +15,6 @@ export const Keyboard = () => {
       onEnter();
     } else if (typedLetter === "DEL") {
       i > 0 ? (i -= 1) : (i = 0);
-      console.log("deleted letter is", i);
       currentBoard[attempt][i] = " ";
       setLetter(i);
       setBoard(currentBoard);

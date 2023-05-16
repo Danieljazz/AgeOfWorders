@@ -5,9 +5,6 @@ import { BoardContext } from "../../boardContext";
 
 const Board = () => {
   const { board } = useContext(BoardContext);
-  useEffect(() => {
-    console.log("das", board);
-  }, [board]);
 
   return (
     <table>

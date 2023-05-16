@@ -34,9 +34,7 @@ export const BoardContextProvider = ({ children }: { children: ReactNode }) => {
   const [guessWord, setGuessWord] = useState(
     bankWord[Math.floor(Math.random() * bankWord.length)].toUpperCase()
   );
-  console.log(guessWord);
   const onEnter = () => {
-    console.log("new board is", Board);
     let j = attempt + 1;
     let currentWord = "";
     board[attempt].forEach((letter) => {
